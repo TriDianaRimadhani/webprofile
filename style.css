@@ -1,0 +1,52 @@
+#header{
+    padding:10px 5px;
+    margin-top: 0;
+    margin-bottom: 1cm;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    background-color:rgb(200,230,285);
+    font-family:helvetica;
+    font-weight: 500;
+}
+
+body{
+    background-color:lightsteelblue;
+    padding:15px 5px;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 5cm;
+    margin-right: 5cm;
+}
+table,th,td{
+    font-family:cursive;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+table.center{
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+p{
+    padding:5px 5px;
+    opacity: 1;
+}
+.menu{
+    background-color: rgb(78, 235, 214);
+}
+.menu:hover{
+    transition: 0.3s;
+    background-color: darkcyan;
+}
+.image{
+    
+    transition: width 0.5s, height 0.5s;
+    display: inline-table;
+}
+.image:hover{
+    width: 250px;
+    height: 250px;
+}
